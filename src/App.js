@@ -2,22 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const dept="ECE";
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>
+          DAY_1_Assignment
+        </h1>
+        <button onClick={window['object_function']}>CLICK HERE</button>
+        {/* <button onClick={window['array_function']}>Click the button</button> */}
       </header>
+
+    
+      {/* <div>
+          <h1>Welcome to {dept} , SKCET</h1>
+      </div> */}
+      
     </div>
   );
 }
